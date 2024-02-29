@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #219ebc;
+}
+
+.nav-bar{
+    background-color: #023047;
+    color: #ffb703;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    position: relative;   
+}
+
+.images{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: row;
+
+}
+
+.image1{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding-right: 50px;
+}
+
+
+.image2{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.image3{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding-left: 50px;
+}
+
+.img1:hover{
+    border: 5px solid black;
+}
+
+.img2:hover{
+    border: 5px solid black;
+}
+
+.img3:hover{
+    border: 5px solid black;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.img2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.img3{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.score1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.score2{
+    font-size: 35px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.you{
+    padding-right: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.comp{
+    padding-left: 30px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.outer-winning-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winning-message{
+    border: 2px solid #fb8500;
+    border-radius: 10px;
+    background-color: #ffb703;
+    width: 30vw;
+    height: 10vh;
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
